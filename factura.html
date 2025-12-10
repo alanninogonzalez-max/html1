@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+</head>
+<body>
+    <center>
+        <button id="btnAgregarFila" type="button" onclick="addfila()">+</button>
+        <span>Número de productos: <span id="numProductos"><b>0</b></span></span>
+    </center>
+    
+    <table id="tblfactura" border="1" align="center">
+        <thead>
+            <tr>
+                <th>.</th>
+                <th>Codigo</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Valor Unit</th>
+                <th>Sub Total</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" align="right">Total</td>
+                <td id="totalFactura">0.00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="funcionesFactura.js"></script>
+</body>
+</html>
