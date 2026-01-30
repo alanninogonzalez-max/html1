@@ -3,7 +3,7 @@ var numProductos = 0;
 var ids = 1;
 
 function addfila() {
-    var tabla = document.getElementById("tblfactura").getElementsByTagName('tbody')[0];
+    var tabla = document.getElementById("ejercicio 6am").getElementsByTagName('tbody')[0];
     var fila = tabla.insertRow(-1);
     var celda1 = fila.insertCell(0);
     var celda2 = fila.insertCell(1);
