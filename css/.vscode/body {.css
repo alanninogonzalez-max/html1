@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+div {
+    position: absolute;
+    border: 2px solid #000;
+    width: 100%;
+    height: 100%;
+}
+
+.interior {
+    width: 40%;
+    height: 40%;
+    border-radius: 50px;
+    box-shadow: 10px 10px gray;
+}
+
+.interior:hover {
+    background-color: yellow;
+}
+
+.superior {
+    top: 8%;
+}
+
+.inferior {
+    bottom: 8%;
+}
+
+.izquierda {
+    left: 8%;
+    background-color: red;
+}
+
+.derecha {
+    right: 8%;
+    background-color: green;
+}
+
+.izquierdas {
+    right: 8%;
+}
+
+.derechas {
+    right: 8%;
+}
+
+#id1 {
+    background-color: blue;
+}
+
+#id2 {
+    background-image: url("img/d844af05645ae7247526a6cd466339bf.jpg");
+}
+
+#id3 {
+    background-image: url("img/ilustración-de-dibujos-animados-profesores-en-el-aula-con-estudiantes-profesor-varón-pie-enseñando-frente-la-pizarra-los-un-280420793.webp");
+}
+
+#id4 {
+    background-image: url("img/istockphoto-1470156879-612x612.webp");
+}
+
+#id5 {
+    background-image: url("img/teacher-and-students-talking-cartoon-vector.jpg");
+}
+
+#id6 {
+    background-image: url("img/teacher-and-students-teaching-in-classroom-cartoon-vector.jpg");
+}
+
+#id7 {
+    background-image: url("img/teacher-at-school-cartoon-vector.jpg");
+}
